@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 420px;
+    height: 420px;
+    position: relative;
+    border: 1px solid black;
+}
+
+#snake{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: blue;
+    z-index: 1;
+}
+
+#food{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
